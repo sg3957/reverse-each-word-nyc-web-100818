@@ -10,7 +10,7 @@ end
 def reverse_each_word(words)
   # words.split(" ")
   # new_words = []
-  words.split.collect.join(" ") do |x| 
+  words.split.collect do |x| 
     x.reverse!
     
   end
