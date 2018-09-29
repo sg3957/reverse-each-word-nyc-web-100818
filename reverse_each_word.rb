@@ -7,13 +7,13 @@ def reverse_each_word(sentence)
 end
 
 
-# def reverse_each_word(words)
+def reverse_each_word(words)
 #   # words.split(" ")
 #   # new_words = []
-#   words.split.collect do |x| 
-#     x.reverse!
+  words.split.collect do |x| 
+    x.reverse!
     
-#   end
+  end
   
-# end
+end
 
